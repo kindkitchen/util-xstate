@@ -1,6 +1,7 @@
 {
     "tasks": {
-        "plop": "deno -A npm:plop --plopfile src/lib/cli/plop.config.ts"
+        "plop": "deno -A npm:plop --plopfile src/lib/cli/plop.config.ts",
+        "test": "deno test --doc"
     },
     "imports": {
         "@std/expect": "jsr:@std/expect@^1.0.19",
