@@ -6,7 +6,7 @@
 #### I want to understand how it works!
 
 > As already mentioned earlier - explore
-> [./promise_logic_from_effect.md]([./promise_logic_from_effect.md]) first.
+> [./promise_logic_from_effect.md](./promise_logic_from_effect.md) first.
 
 But the core idea is to wrap builtin `fromPromise` actor.
 

@@ -10,5 +10,5 @@ import { im_sure } from "./im_sure.ts";
  * _(because it is from actor `onDone`)_
  * with `effect'`s `Either` type.
  */
-export const is_done_right = ({ event }: { event: AnyEventObject }) =>
+export const is_output_right = ({ event }: { event: AnyEventObject }) =>
     Either.isRight(im_sure.event_with_either_output(event).output);

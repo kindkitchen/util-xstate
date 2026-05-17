@@ -11,4 +11,4 @@ import { im_sure } from "./im_sure.ts";
  * with `effect'`s `Either` type.
  */
 export const is_output_left = ({ event }: { event: AnyEventObject }) =>
-    Either.isRight(im_sure.event_with_either_output(event).output);
+    Either.isLeft(im_sure.event_with_either_output(event).output);
